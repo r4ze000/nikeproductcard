@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Quicksand", sans-serif;
+
+}
+body{
+    background:url(is.jpg);
+    background-size: cover;
+
+    background-repeat: repeat;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    height: 50rem;
+    width:30rem;
+    position: absolute;
+    top: 5rem;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 3rem;
+    box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.5);
+    transition: 2s ease-in;
+}
+.banner{
+    height: 50%;
+    background: orange;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    padding: 2rem;
+    position: relative;
+    transition: 2s ease-in;
+    
+}
+.banner h1{
+    color: rgba(255,255,255,0.8);
+    margin-bottom: 20px;
+    font-size: 1.7rem;
+}
+.banner p{
+    color: rgba(255,255,255,0.8);
+    margin-bottom: 20px;
+    font-size: 0.8rem;
+}
+.headings img{
+    mix-blend-mode: multiply;
+    height: 90px;
+    width:90px;
+}
+ 
+
+.shoe1{
+    height: 500px;
+    width: 450px;
+    position: absolute;
+    top: -50px;
+    left: 180px;
+    transition: 2s ease-in;
+    
+}
+.shoe2{
+    height: 540px;
+    width: 480px;
+    position: absolute;
+    top: -145px;
+    left: -1200px;
+    transform: rotate(-45deg);
+    transition: 2s ease-in;
+}
+
+.shoe3{
+    left:115px;
+}
+
+.shoe4{
+    left:-1200px;
+}
+
+
+
+.INFO{
+    height: 50%;
+    padding: 2rem;
+    background-color: white;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+
+}
+.NAME{
+    display:flex;
+}
+.NAME h1{
+    margin-right: 2rem;
+}
+.NAME button{
+     width: 50px;
+     height: 20px;
+     align-self: center;
+     background-color: rgb(27, 146, 106);
+     border: none;
+     font-weight: 900;
+     color: white;
+}
+.INFO h3{
+    margin-bottom: 8px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.size h3{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.size span{
+    display: inline-block;
+    width: 20px;
+    margin-right: 30px;
+    border-radius: 50%;
+    font-size: p9x;
+    text-align: center;
+}
+.size span:hover{
+    background-color: aquamarine;
+    
+}
+.color{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.color-type{
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    
+}
+
+.red{
+    margin-right: 20px;
+    border: none;
+    border-radius: 50%;
+    background-color: red;
+    height: 20px;
+    width: 20px;
+}
+.blue{
+    margin-right: 10px;
+    border: none;
+    border-radius: 50%;
+    background-color: blue;
+    height: 20px;
+    width: 20px;
+}
+.price-tag{
+    display: flex;
+    background-color: darkblue;
+    height: 50px;
+    width:50%;
+    align-items: center;
+    padding: 10px;
+    border-radius: 1rem;
+    box-shadow: 0 6rem 6rem rgba(0, 0, 0, 0.5); 
+    position: absolute;
+    left: 54%;
+    transition: 2s ease-in;
+}
+.curr{
+    color: rgba(255,255,255,0.7);
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+.price{
+    color: white;
+    font-size:30px;
+    font-weight: 900;
+}
+
+.change{
+    background-color: rgb(177, 39, 39);
+}
+
+@media(max-width:700px){
+.container{
+width: 80%;
+}
+.shoe1{
+    height: 400px;
+    width: 290px;
+}
+.shoe2{
+height: 400px;
+width: 300px;
+
+
+}
+.price-tag{
+width: 55%;
+}
+}
